@@ -1,0 +1,144 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+.body {
+    background-color: #fff;
+}
+.wrapper {
+    width: 1200px;
+    margin: auto;
+    height: 5000px;
+}
+.section {
+    display: flex;
+    justify-content: center;
+    /*background-color: yellow;*/
+    margin-bottom: 50px;
+    align-items: center;
+}
+.text {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 25px;
+    text-align: justify;
+}
+.banner {
+    position: relative;
+    height: 800px;
+    background-image: url("../img/nokia-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+.banner_text {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    width: 370px;
+    height: 300px;
+    color: #000;
+    background-color: #fff;
+    padding: 30px 0 0 30px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column-reverse;
+}
+.bannerHead {
+    font-size: 40px;
+    color: #fff;
+    margin-top: -100px;
+}
+.bannerHead_right {
+    margin-left: 300px;
+}
+.head {
+    font-family: 'Montserrat', sans-serif;
+    width: 400px;
+    /*background-color: blue;*/
+    text-align: center;
+    font-size: 30px;
+    color: #444;
+}
+.characters_Text,.complex_Text,.cellular_Text {
+    width: 1000px;
+    border: 5px solid rgb(234 220 1);
+    height: 100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    height: 200px;
+}
+.table {
+    height: 400px;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+table {
+    width: 1000px;
+    text-align: left;
+    border-collapse: collapse;
+    height: 100%;
+    color: #000;
+}
+tr {
+    border-bottom: 2px solid #888;
+}
+.complex {
+    flex-direction: row-reverse;
+}
+.appearance {
+    flex-direction: column;
+}
+.appearance_banner {
+    display: flex;
+    width: 100%;
+    height: 600px;
+    background-image: url("../img/nokia-1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: flex-end;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    padding: 100px 50px;
+}
+.appearance_Head {
+    color: #fff;
+}
+.appearanceText {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.appearanceText__box {
+    padding: 20px;
+    width: 350px;
+    height: 400px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+}
+.cellular {
+    height: 300px;
+}
+.cellular_Head, .conclusion_Head {
+    background-color: rgb(94, 112, 136);
+    height: 100%;
+    line-height: 300px;
+    color: #fff;
+}
+.cellular_Text, .conclusion_Text {
+    border: none;
+    height: 100%;
+}
+.conclusion {
+    flex-direction: column;
+}
+.conclusion_Head {
+    width: 100%;
+    height: 100px;
+    line-height: 100px;
+}
+.conclusion_Text {
+    padding: 30px;
+}
