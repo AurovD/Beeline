@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Shopper</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <header>
+            <div class="header flex-block">
+                <img src="img/logo.svg" alt="Shopper_Logo">
+                <form action="" class="formHeader">
+                    <input type="text" placeholder="Search for Products" class="form_text form_text__header">
+                    <input type="submit" class="form_submit" value="Search">
+                </form>
+                <div class="userPanel flex-block">
+                    <button class="button">Log in</button>
+                    <button class="button">Sign up</button>
+                    <img src="img/shortlist%20icon.svg" alt="shortlist">
+                    <img src="img/Cart%20icon.svg" alt="Cart">
+                </div>
+            </div>
+            <nav class="sub_header flex-block">
+                <div>Home Decor</div>
+                <div>Furniture</div>
+                <div>Lighting</div>
+                <div>Home Accents</div>
+                <div>Rugs</div>
+                <div>Outdoors</div>
+                <div>Holidays</div>
+                <div>Gifts</div>
+                <div>Events</div>
+            </nav>
+        </header>
+        <main>
+            <div class="mainWrapper">
+                <h1>Seller Application</h1>
+                <ul class="mainNav flex-block">
+                    <li class="mainNav_list"><a href="" class="mainNav_a text">Application Critaria</a></li>
+                    <li class="mainNav_list"><a href="" class="mainNav_a text">Company Profile</a></li>
+                    <li class="mainNav_list"><a href="" class="mainNav_a text">Web & Social Media</a></li>
+                    <li class="mainNav_list"><a href="" class="mainNav_a text">Contact Info</a></li>
+                    <li class="mainNav_list"><a href="" class="mainNav_a text">Confirm Account</a></li>
+                </ul>
+                <form action="/api/order" method="post" class="form">
+                    <fieldset>
+                        <legend class="form-group__title">Name</legend>
+                         <div class="application flex-block">
+                            <input type="text" name="gender" placeholder="Mr" class="form-group__input">
+                            <input type="text" name="fName" placeholder="First Name" class="form-group__input">
+                            <input type="text" name="mName" placeholder="Middle Name" class="form-group__input">
+                            <input type="text" name="lName" placeholder="Last Name" class="form-group__input">
+                        </div>
+                        <legend class="form-group__title">Title</legend>
+                        <input type="text" name="title" placeholder="eg. CEO, Owner, Manager, Designer, Merchandiser" class="form-group__input title">
+                    </fieldset>
+                    <fieldset>
+                        <legend class="form-group__title_blue">Business Mailing Address</legend>
+                        <div class="formAdd flex-block">
+                            <div class="form-group">
+                                <label class="form-group__title" for="street">
+                                    Street Address
+                                </label>
+                                <input type="text" id="street" class="form-group__input">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__title" for="apt">
+                                    Apt / Suite / Other
+                                </label>
+                                <input type="text" id="apt" class="form-group__input">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__title"
+                                       for="city">
+                                    City
+                                </label>
+                                <input type="text" id="city" class="form-group__input">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__title"
+                                       for="postCode">
+                                    Zip / Postal Code
+                                </label>
+                                <input type="text" id="postCode" class="form-group__input">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__title"
+                                       for="country">
+                                    Country
+                                </label>
+                                <input type="text" id="country" placeholder="Select Country" class="form-group__input">
+                            </div>
+                            <div class="form-group">
+                                <label class="form-group__title"
+                                       for="phone">
+                                    Phone Number
+                                </label>
+                                <input type="text" id="phone" class="form-group__input">
+                                <p class="text form-group__p">To Validate your account please enter valid mobile Number to receive confirmation code</p>
+                            </div>
+                        </div>
+                    </fieldset>
+                    <div class="navButtons flex-block">
+                        <button class="button">Go back</button>
+                        <p class="text form-group__p">By Submitting this application, you agree to the </p>
+                        <input type="submit" class="form_submit form_submit__mainForm" value="Submit Application">
+                    </div>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <div class="mainWrapper flex-block">
+                <div class="column">
+                       <h3>How We Help</h3>
+                        <p>Retailers</p>
+                        <p>Interiors Designers</p>
+                        <p>Product Designers</p>
+                        <p>Wholesalers / Importers</p>
+                        <p>Artisans</p>
+                </div>                
+               <div class="column">
+                    <h3>Get to Know Us</h3>
+                    <p>About</p>
+                    <p>Policies</p>
+                    <p>Careers</p>
+                    <p>Press</p>
+                </div>               
+               <div class="column">
+                    <h3>Join the Community</h3>
+                    <p>Upcoming Events</p>
+                    <p>Become a Buyer</p>
+                    <p>Become a Seller</p>
+                </div>              
+                    <div class="column">
+                    <h3>Follow Us</h3>
+                    <p class="column_logo column_logo__facebook">Facebook</p>
+                    <p class="column_logo column_logo__pint">Pinterest</p>
+                    <p class="column_logo column_logo__twitter">Twitter</p>
+                    <p class="column_logo column_logo__insta">Instagram</p>
+                </div>
+            </div>
+            <div class="secFooter flex-block">
+                <p class="text">Terms & Conditions     Privacy</p>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
