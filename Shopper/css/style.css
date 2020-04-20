@@ -32,18 +32,12 @@
 * {
     padding: 0;
     margin: 0;
-    /*font-size: 0;*/
 }
 body {
     font-family: 'Lato', sans-serif;
     background-color: #fff;
 }
 /*Templates*/
-.wrapper {
-    width: 1440px;
-    margin: 0 auto;
-    min-height: 100vh;
-}
 .flex-block {
     display: flex;
     align-items: center;
@@ -73,13 +67,14 @@ body {
 .formHeader {
     margin-left: -100px;
     font-size: 0;
+    white-space: nowrap;
 }
 .sub_header {
+    margin: 0 auto;
     height: 45px;
     background-color: #f4f4f4;
     padding: 0 80px;
     font-size: 15px;
-    color: #737270;
     justify-content: flex-start;
 }
 .mainNav {
@@ -89,7 +84,6 @@ body {
 .form {
     width: 970px;
     min-height: 630px;
-    /*background-color: red;*/
     border: 1px solid #c6c6c5;
     padding: 39px 18px 14px 21px;
     box-sizing: border-box;
@@ -108,16 +102,17 @@ fieldset {
 .formAdd {
     border-top: 1px solid #c6c6c5;
     padding-top: 17px;
-    margin-bottom: 49px;
+    margin: 10px 0 49px;
 }
 .column {
-    margin: 50px 0 10px 0;
+    margin-top: 50px;
     padding-right: 30px;
-    color: #1C1C1B;
 }
 /*Molecules*/
-.sub_header > div {
+.sub_header > a {
+    text-decoration: none;
     padding-right: 40px;
+    color: #737270;
 }
 .userPanel {
     width: 338px;
@@ -181,13 +176,11 @@ h1 {
     color: #007aff;
     font-weight: 700;
 }
-legend {
-    margin-bottom: 10px;
-}
 .form-group__title {
     font-size: 14px;
     font-weight: 700;
     color: #000;
+    margin-bottom: 20px;
 }
 .form-group__input {
     display: block;
@@ -200,10 +193,13 @@ legend {
     color: #878786;
     padding-left: 17px;
     box-sizing: border-box;
+    margin-top: 10px;
+}
+.application {
+    margin-bottom: 39px;
 }
 .application > .form-group__input {
     width: 236px;
-    margin-bottom: 39px;
 }
 .application > .form-group__input:first-child {
     color: red;
@@ -219,10 +215,6 @@ legend {
     font-size: 16px;
     font-weight: 400;
 }
-.form-group > .form-group__input {
-/*    display: block;*/
-    margin-top: 10px;
-}
 .text {
     text-decoration: none;
     font-size: 14px;
@@ -237,12 +229,16 @@ legend {
     font-weight: 500;
     margin-bottom: 10px;
 }
-.column > p {
+.column > a {
+    display: block;
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 20px;
+    color: #1C1C1B;
+    text-decoration: none;
 }
 .column_logo {
+    display: block;
     position: relative;
     padding-left: 30px;
 }

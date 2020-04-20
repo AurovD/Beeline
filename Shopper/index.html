@@ -12,7 +12,7 @@
                 <img src="img/logo.svg" alt="Shopper_Logo">
                 <form action="" class="formHeader">
                     <input type="text" placeholder="Search for Products" class="form_text form_text__header">
-                    <input type="submit" class="form_submit" value="Search">
+                    <button class="form_submit">Search</button>
                 </form>
                 <div class="userPanel flex-block">
                     <button class="button">Log in</button>
@@ -22,15 +22,15 @@
                 </div>
             </div>
             <nav class="sub_header flex-block">
-                <div>Home Decor</div>
-                <div>Furniture</div>
-                <div>Lighting</div>
-                <div>Home Accents</div>
-                <div>Rugs</div>
-                <div>Outdoors</div>
-                <div>Holidays</div>
-                <div>Gifts</div>
-                <div>Events</div>
+                <a href="">Home Decor</a>
+                <a href="">Furniture</a>
+                <a href="">Lighting</a>
+                <a href="">Home Accents</a>
+                <a href="">Rugs</a>
+                <a href="">Outdoors</a>
+                <a href="">Holidays</a>
+                <a href="">Gifts</a>
+                <a href="">Events</a>
             </nav>
         </header>
         <main>
@@ -44,17 +44,15 @@
                     <li class="mainNav_list"><a href="" class="mainNav_a text">Confirm Account</a></li>
                 </ul>
                 <form action="/api/order" method="post" class="form">
-                    <fieldset>
-                        <legend class="form-group__title">Name</legend>
+                        <label class="form-group__title" for="name">Name</label>
                          <div class="application flex-block">
-                            <input type="text" name="gender" placeholder="Mr" class="form-group__input">
+                            <input type="text" name="gender" id="name" placeholder="Mr" class="form-group__input">
                             <input type="text" name="fName" placeholder="First Name" class="form-group__input">
                             <input type="text" name="mName" placeholder="Middle Name" class="form-group__input">
                             <input type="text" name="lName" placeholder="Last Name" class="form-group__input">
                         </div>
-                        <legend class="form-group__title">Title</legend>
-                        <input type="text" name="title" placeholder="eg. CEO, Owner, Manager, Designer, Merchandiser" class="form-group__input title">
-                    </fieldset>
+                        <label class="form-group__title" for="title">Title</label>
+                        <input type="text" name="title" id="title" placeholder="eg. CEO, Owner, Manager, Designer, Merchandiser" class="form-group__input title">
                     <fieldset>
                         <legend class="form-group__title_blue">Business Mailing Address</legend>
                         <div class="formAdd flex-block">
@@ -113,31 +111,32 @@
             <div class="mainWrapper flex-block">
                 <div class="column">
                        <h3>How We Help</h3>
-                        <p>Retailers</p>
-                        <p>Interiors Designers</p>
-                        <p>Product Designers</p>
-                        <p>Wholesalers / Importers</p>
-                        <p>Artisans</p>
+                    <a href="">Retailers</a>
+                    <a href="">Interiors Designers</a>
+                    <a href="">Product Designers</a>
+                    <a href="">Wholesalers / Importers</a>
+                    <a href="">Artisans</a>
                 </div>                
                <div class="column">
                     <h3>Get to Know Us</h3>
-                    <p>About</p>
-                    <p>Policies</p>
-                    <p>Careers</p>
-                    <p>Press</p>
+                   <a href="">About</a>
+                   <a href="">Policies</a>
+                   <a href="">Careers</a>
+                   <a href="">Press</a>
                 </div>               
                <div class="column">
                     <h3>Join the Community</h3>
-                    <p>Upcoming Events</p>
-                    <p>Become a Buyer</p>
-                    <p>Become a Seller</p>
+                   <a href="">About</a>
+                   <a href="">Policies</a>
+                   <a href="">Careers</a>
+                   <a href="">Press</a>
                 </div>              
                     <div class="column">
                     <h3>Follow Us</h3>
-                    <p class="column_logo column_logo__facebook">Facebook</p>
-                    <p class="column_logo column_logo__pint">Pinterest</p>
-                    <p class="column_logo column_logo__twitter">Twitter</p>
-                    <p class="column_logo column_logo__insta">Instagram</p>
+                        <a href="" class="column_logo column_logo__facebook">Facebook</a>
+                        <a href="" class="column_logo column_logo__pint">Pinterest</a>
+                        <a href="" class="column_logo column_logo__twitter">Twitter</a>
+                        <a href="" class="column_logo column_logo__insta">Instagram</a>
                 </div>
             </div>
             <div class="secFooter flex-block">
