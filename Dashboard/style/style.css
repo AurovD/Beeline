@@ -1,0 +1,187 @@
+@font-face {
+    font-family: "Arimo";
+    src: url("font/Arimo/Arimo-Bold.ttf") format("TrueType");
+    font-weight: 700;
+    font-style: "normal";
+}
+@font-face {
+    font-family: "Arimo";
+    src: url("font/Arimo/Arimo-Regular.ttf") format("TrueType");
+    font-weight: 400;
+    font-style: "normal";
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #dedede;
+    font-family: 'Arimo', sans-serif;
+    color: #4a4a4a;
+}
+.wrapper {
+    width: 1440px;
+    height: 900px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+}
+/*container-1*/
+.container-1 {
+    flex-grow: 0;
+    flex-basis: 255px;
+    background-color: #fff;
+    padding: 17px 36px 10px 19px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.container-1_header {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 16px;
+}
+.container-1_box {
+    width: 195px;
+    height: 164px;
+    background-color: #F5F6FA;
+    border-radius: 8px;
+}
+.container-1_h5 {
+    font-size: 14px;
+    font-weight: 400;
+}
+/*container-2*/
+.container-2 {
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding: 17px 31px 127px 30px;
+    background-color: #F5F6FA;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    box-sizing: border-box;
+}
+.container-1_h4 {
+    font-size: 16px;
+    font-weight: 400;
+}
+.outterBox {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.innerBox__white {
+    width: 547px;
+    height: 185px;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 12px 23px;
+    box-sizing: border-box;
+}
+.innerBox_p {
+    font-size: 14px;
+    font-weight: 700;
+    color: #bbb;
+}
+.collumn-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 870px;
+    flex-grow: 1;
+    flex-shrink: 1;
+}
+.innerBox {
+    height: 240px;
+    margin-right: 16px;
+    background-color: rgb(236, 240, 250);
+    margin-bottom: 16px;
+    padding: 8px 10px 0 8px;
+    box-sizing: border-box;
+}
+.innerBox_one {
+    flex-basis: 195px;
+    width 195px;
+}
+.innerBox_two {
+    flex-grow: 1; 
+}
+.innerBox_tree {
+    width: 195px;
+    flex-grow: 0;
+    height: 440px;
+    margin-left: 16px;
+}
+.innerBox_four {
+    flex-grow: 1;
+    height: 197px;
+    flex-direction: column;
+}
+.innerBox_p__blue {
+    font-size: 14px;
+    font-weight: 400;
+}
+.blueBoxCont {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    margin-top: 16px;
+    padding-bottom: 11px;
+    border-bottom: 1px dashed #c5c8d0;
+    position: relative;
+}
+.blueBoxCont::after {
+    content: "";
+    position: absolute;
+    right: -5px;
+    bottom: -2.5px;
+    width: 0;
+    height: 0;
+    transform: rotate(90deg);
+    border-left: 2px solid transparent;
+    border-right: 2px solid transparent;
+    border-bottom: 4px solid #c5c8d0;
+}
+.blueBox {
+    width: 98px;
+    height: 158px;
+    background-color: #e3eafa;
+    padding-left: 7px;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.form {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+.form_column {
+    width: 250px;
+}
+input {
+    margin-right: 10px;
+}
+.innerBox_p__reg {
+    font-size: 12px;
+    font-weight: 400;
+    margin: 10px 0 10px 36px;
+}
+.innerBox_p__bold {
+    font-weight: 700;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+.form_column_last {
+    width: 210px;
+    height: 140px;
+    background-color: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
