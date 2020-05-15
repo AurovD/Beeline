@@ -1,0 +1,225 @@
+@font-face {
+    font-family: "Abel";
+    src: url("Fonds/Abel-Regular.ttf") format("TrueType");
+    font-weight: 300;
+    font-style: "normal";
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-color: #fff;
+    font-family: "Abel", sans-serif;
+}
+.wrapper {
+    width: 1440px;
+    min-height: 100vh;
+    margin: auto;
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 89px;
+}
+.logo {
+    width: 55px;
+    height: 55px;
+    background-color: #d8d8d8;
+    border-radius: 50%;
+    margin-left: 50px;
+}
+nav {
+    margin-right: 10px;
+}
+nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+nav li {
+    width: 154px;
+    height: 31px;
+    list-style-type: none;
+    background-color: #d8d8d8;
+    margin-right: 40px;
+}
+.block {
+    display: flex;
+}
+.block_banner {
+    align-items: center;
+    height: 450px;
+    background-color: #d8d8d8;
+    padding-left: 130px; 
+}
+.headers h1 {
+    font-size: 60px;
+    font-weight: 300;
+    line-height: 76px;
+}
+.headers h2 {
+    font-size: 36px;
+    font-weight: normal;
+    line-height: 46px;
+}
+.buttons {
+    margin-top: 29px;
+    display: flex;
+}
+.button {
+    width: 283px;
+    height: 60px;
+    border: none;
+    font-family: "Abel";
+    line-height: 33px;
+    font-weight: normal;
+    font-style: normal;
+    background-color: #fff;
+    margin-right: 25px;
+    font-size: 26px
+}
+.button_black {
+    background-color: #000;
+    color: #fff;
+}
+.button_black_submit {
+    background-color: #000;
+    color: #fff;
+}
+.submit {
+    font-size: 26px;
+}
+.block_row {
+    justify-content: space-between;
+    padding: 60px 110px 85px 110px;
+}
+.block_row article {
+    width: 380px;
+    height: 502px;
+    color: #1C1E20;
+}
+.block-row_rectagle{
+    width: 380px;
+    height: 244px;
+    background-color: #d8d8d8;
+    margin-bottom: 30px;
+}
+.text h3 {
+    font-weight: normal;
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+.text p {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+}
+.text + p {
+    color: #787878;
+    font-size: 18px;
+    margin-top: 40px;
+    line-height: 30px;
+    line-height: 23px;
+    text-decoration-line: underline;
+}
+.block_signUp {
+    height: 266px;
+    background-color: #d8d8d8;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 129px;
+    margin-bottom: 80px;
+}
+form {
+    display: flex;
+    margin-top: 30px;
+}
+label h2 {
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 47px;
+    letter-spacing: 4.375px;
+    color: #1C1E20;
+}
+form input[type="email"] {
+    width: 412px;
+    height: 60px;
+    border: none;
+    font-family: "Abel";
+    padding-left: 20px;
+    font-weight: normal;
+    font-size: 26px;
+    line-height: 33px;
+    color: #787878;
+}
+.block_column {
+    flex-direction: column;
+    align-items: center;
+}
+.block_column .article {
+    width: 1191px;
+    height: 386px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 60px;
+}
+.block-column_rectagle {
+    width: 588px;
+    height: 386px;
+    background-color: #d8d8d8;
+}
+.block_column_text {
+    width: 543px;
+    height: 136px;
+    text-align: right;
+}
+.reverse {
+    flex-direction: row-reverse;
+}
+.reverse .block_column_text {
+    text-align: left;
+}
+footer {
+    height: 415px;
+    background-color: #d8d8d8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+}
+footer .logo {
+    background-color: #fff;
+    margin: 97px 0 0 0;
+}
+footer nav {
+    width: 736px;
+    margin: 30px 0 0 0;
+}
+footer li {
+    background-color: #fff;
+    margin: 0;
+}
+hr {
+    height: 2px;
+    width: 996px;
+    background-color: #fff;
+    border: none;
+    margin: 29px 0 51px 0;
+}
+.social_media {
+    display: flex;
+    width: 230px;
+    justify-content: space-between;
+}
+img {
+    width: 20px;
+}
+
+
+
+
+
+
+
