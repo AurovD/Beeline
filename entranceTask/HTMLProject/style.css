@@ -23,12 +23,10 @@ header {
     align-items: center;
     height: 89px;
 }
-.grey_bg {
-    background-color: #d8d8d8;
-}
 .logo {
     width: 55px;
     height: 55px;
+    background-color: #d8d8d8;
     border-radius: 50%;
     margin-left: 50px;
 }
@@ -43,6 +41,7 @@ nav li {
     width: 154px;
     height: 31px;
     list-style-type: none;
+    background-color: #d8d8d8;
     margin-right: 40px;
 }
 .block {
@@ -51,6 +50,7 @@ nav li {
 .block_banner {
     align-items: center;
     height: 450px;
+    background-color: #d8d8d8;
     padding-left: 130px; 
 }
 .headers h1 {
@@ -79,7 +79,11 @@ nav li {
     margin-right: 25px;
     font-size: 26px
 }
-.button_black, .button_black_submit  {
+.button_black {
+    background-color: #000;
+    color: #fff;
+}
+.button_black_submit {
     background-color: #000;
     color: #fff;
 }
@@ -98,6 +102,7 @@ nav li {
 .block-row_rectagle{
     width: 380px;
     height: 244px;
+    background-color: #d8d8d8;
     margin-bottom: 30px;
 }
 .text h3 {
@@ -110,15 +115,17 @@ nav li {
     font-size: 18px;
     line-height: 30px;
 }
-.text + a {
+.text + p {
     color: #787878;
     font-size: 18px;
     margin-top: 40px;
     line-height: 30px;
-    text-decoration: none;
+    line-height: 23px;
+    text-decoration-line: underline;
 }
 .block_signUp {
     height: 266px;
+    background-color: #d8d8d8;
     flex-direction: column;
     align-items: center;
     padding-top: 129px;
@@ -161,6 +168,7 @@ form input[type="email"] {
 .block-column_rectagle {
     width: 588px;
     height: 386px;
+    background-color: #d8d8d8;
 }
 .block_column_text {
     width: 543px;
